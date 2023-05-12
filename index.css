@@ -1,0 +1,344 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.53);
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 40px;
+	position: fixed;
+	width: 100%;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.brand {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+	margin-right: auto;
+}
+
+.hero {
+	background-image: url('https://i.imgur.com/jQpkEzn.png');
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 100px;
+}
+
+.hero_cars {
+	background-image: url('https://images.unsplash.com/photo-1563191848-b01d0258f1f9');
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	padding: 100px;
+}
+
+.hero-content {
+	text-align: left;
+	margin-top: -30px;
+	padding: 40px;
+}
+
+.hero-content-about {
+	text-align: left;
+}
+
+.hero-heading {
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.hero-heading-2 {
+	font-size: 60px;
+	font-weight: bold;
+	color: #df0201;
+	margin-bottom: 20px;
+}
+
+.services {
+	background-color: #fff;
+	padding: 50px 0;
+}
+.aboutus {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container_full {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col {
+	flex-basis: 45%;
+	margin-bottom: 20px;
+}
+
+.side_car_col {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.side_car_col:hover {
+	transition: all .2s ease-in-out;
+	scale: 130%;
+}
+
+.aboutus_side_car_col {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.aboutus_side_car_col:hover {
+  transition: all .2s ease-in-out;
+  scale: 130%;
+}
+
+.service-title {
+	font-size: 36px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #333;
+	font-weight: 100;
+}
+
+.service-paragraph {
+	font-size: 18px;
+	color: #555;
+	line-height: 1.5;
+}
+
+.aboutus-title {
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 100;
+}
+
+.aboutus-paragraph {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-left: 1.5rem;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo a {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+
+.car-row {
+	overflow-x: hidden;
+	margin-top: 10px;
+	display: flex;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+
+.car-col {
+	width: 350px;
+	height: auto;
+	margin-left: 30px;
+}
+
+.active_link {
+	background-color: #df0201;
+	padding: 20px;
+}
+
+.pre-owned-cars {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.section-title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.card {
+	overflow: hidden;
+	margin: 0;
+}
+
+.col-md-3 {
+	flex-basis: calc(20% - 0px);
+	margin: 0;
+}
+.col-md-5 {
+  flex-basis: calc(20% - 30px);
+  margin: 10px;
+}
+
+.card-image {
+	height: 300px;
+	background-size: contain;
+	background-position: center;
+}
+
+.card-image:hover {
+	transition: all .2s ease-in-out;
+	scale: 130%;
+	background-size: cover;
+	background-position: center;
+}
+
+.card-bottom-panel {
+	background-color: #00000079;
+	color: #fff;
+	padding: 10px;
+	margin-top: -40px;
+  position: absolute;
+  width: 100%;
+}
+
+.card-title {
+	text-align: left;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	color: white;
+}
+
+.spacer {
+	margin-top: 50px;
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	height: 300px;
+	padding: 50px 0;
+	bottom: 0;
+	width: 100%;
+	height: 300px;
+}
+
+
+.footer-title {
+	padding-top: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+.footer p {
+	margin-bottom: 20px;
+}
+
+.col-md-6 {
+	flex-basis: 50%;
+	padding: 0 30px;
+}
+
+.copyright {
+	bottom: 0;
+	position: relative;
+	background-color: #222;
+	color: #fff;
+	padding: 10px 0;
+	margin-top: 55px;
+}
+
+.copyright p {
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+.stats-section {
+	background-color: #f8f8f8;
+	padding: 80px 0;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.stats-card {
+	text-align: center;
+	padding: 40px 20px;
+	margin-bottom: 40px;
+}
+
+.stats-title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.stats-subtitle {
+	font-size: 24px;
+	font-weight: 500;
+	color: #666;
+	margin-bottom: 0;
+}
+
+.stats-card:hover {
+	transform: translateY(-5px);
+	transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
